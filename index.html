@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="library.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="java.js">
+</head>
+
+<body>
+    <header>
+        <section id="headerweb" class="container-fluid">
+            <a href="#"><img src="logo-01.png" alt=""></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Porfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </section>
+    </header>
+    <main>
+        <section id="banner-web">
+            <div class="banner">
+                <video autoplay muted loop src="Space - 53982.mp4"></video>
+            </div>
+            <div class="content">
+                <h4>WELLCOME</h4>
+                <h1>I'm <span class="element">Thu Hoai</span></h1>
+                <p>Technology and design are the core of success for real estate related businesses.</p>
+                <a><i class='ic bx bxl-facebook'></i></a>
+                <a><i class='ic bx bxl-instagram-alt'></i></a>
+                <a><i class='ic bx bxl-behance'></i></a>
+                <a><i class='ic bx bxl-twitter'></i></a><br>
+                <a class="roll" href="#about"><i class='bx bxs-chevrons-down roll-ani'></i></a>
+            </div>
+        </section>
+        <section id="about" class="container-fluid ">
+            <div class="container row g-0 justify-between align-items-center">
+                <div class="col-4">
+                    <div class="avartar justify-center ">
+                        <div class="box">
+                        </div>
+                        <img src="anh.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-6 text-about">
+                    <h1>About Me</h1>
+                    <hr>
+                    <h4>I am UI/UX Designer And Graphic Designer</h4>
+                    <p>Lorem Ipsum is simply dummy text of the an took a galley of type and it to make a type specimen
+                        book
+                        It has survived not only five centuries.
+                        <br>
+                        Lorem Ipsum is simply dummy text of the printing and type setting industry when an unknown
+                        printer
+                        took a galley and type setting unknown printer industry when of type and scrambled it to make a
+                        type
+                        specimen book It has survived not only five centuries.
+                    </p>
+                </div>
+            </div>
+            <div class="qte container-fluid row align-items-center justify-center text-center">
+                <div class="quote row align-items-center justify-center text-center">
+                    <h3>Quote Of The Day</h3>
+                    <span><i class='bx bxs-quote-alt-left icon-qte'></i> Being good in business is the most fascinating
+                        kind of art. Making money is art and working is art and good business is the best art <i
+                            class='bx bxs-quote-alt-right icon-qte'></i></span>
+                    <h6>-Andy Warhol-</h6>
+                </div>
+
+            </div>
+        </section>
+        <section id="services" class="container-fluid">
+            <div class="my-service">
+                <h1>My Services</h1>
+                <hr>
+            </div>
+            <div class="3-service container row justify-between align-items-center">
+                <div class="col-3 one">
+                    <img src="laptop.svg" alt="">
+                    <h3>GRAPHIC DESIGNER</h3>
+                    <p>There are many variations of passages of Lorem Ipsum </p>
+                </div>
+                <div class="col-3 one">
+                    <img src="design.png" alt="">
+                    <h3>UX/UI DESIGN</h3>
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. </p>
+                </div>
+                <div class="col-3 one">
+                    <img src="camera.svg" alt="">
+                    <h3>PHOTOGRAPHY</h3>
+                    <p>Various versions have evolved over the years, sometimes by accident</p>
+                </div>
+            </div>
+
+
+        </section>
+        <section id="portfolio">
+            <h1>Portfolio</h1>
+            <!-- Tab links -->
+            <div class="tab">
+                <button class="tablinks" onclick="openCity(event, 'All')" id="defaultOpen">All</button>
+                <button class="tablinks" onclick="openCity(event, 'Poster')" id="defaultOpen">Poster</button>
+                <button class="tablinks" onclick="openCity(event, 'Brand')" id="defaultOpen">Brand</button>
+                <button class="tablinks" onclick="openCity(event, 'Illustrator')" id="defaultOpen">Illustrator</button>
+            </div>
+
+            <!-- Tab content -->
+            <div class="big container-fluid">
+                <div id="All" class="tabcontent container">
+                    <div class="row justify-around">
+                        <div class="col-3">
+                            <div class="card">
+                                <img src="poster/claudio-schwarz-LkBsQLLR0Xs-unsplash.jpg" class="card-img-top"
+                                    alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">POSTER</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                    <button class="tablinks nut" onclick="openCity(event, 'Poster')"
+                                        id="defaultOpen">Go</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card">
+                                <img src="brand/O-FARM-3.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">BRAND</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                    <button class="tablinks nut" onclick="openCity(event, 'Brand')"
+                                        id="defaultOpen">Go</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card">
+                                <img src="illustrator/3.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">ILLUSTRATOR</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                    <button class="tablinks nut" onclick="openCity(event, 'Illustrator')"
+                                        id="defaultOpen">Go</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div id="Poster" class="tabcontent container">
+                    <div class="row justify-between">
+                        <div class="col-4">
+                            <img src="poster/2.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img src="poster/3.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img src="poster/1.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img src="poster/4.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img src="poster/8.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img src="poster/7.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img src="poster/6.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img src="poster/9.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img src="poster/5.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div id="Brand" class="tabcontent container">
+                    <div class="row ">
+                        <div class="col-4">
+                            <img src="brand/2.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img src="brand/3.jpg" alt="">
+                        </div>
+                        <div class="col-3">
+                            <img src="brand/4.jpg" alt="">
+                        </div>
+                        <div class="container row o-farm ">
+                            <div class="col-4">
+                                <img src="brand/poster-1.jpg" alt="">
+                            </div>
+                            <div class="col-4 ngang">
+                                <img class="margin" src="brand/O-FARM-2.jpg" alt="">
+                                <img src="brand/O-FARM-3.jpg" alt="">
+                            </div>
+                            <div class="col-4 ngang">
+                                <img class="margin" src="brand/xb.jpg" alt="">
+                                <img src="brand/log.jpg" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div id="Illustrator" class="tabcontent container">
+                    <div class="row justify-around">
+                        <div class="col-6">
+                            <img class="illus" src="illustrator/1.jpg" alt="">
+                        </div>
+                        <div class="col-6">
+                            <img class="illus" src="illustrator/2.jpg" alt="">
+                        </div>
+                        <div class="col-10">
+                            <img class="illus" src="illustrator/3.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="end"></div>
+    </footer>
+    <script>
+        function openCity(evt, cityName) {
+            // Declare all variables
+            var i, tabcontent, tablinks;
+
+            // Get all elements with class="tabcontent" and hide them
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+
+            // Get all elements with class="tablinks" and remove the class "active"
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+
+            // Show the current tab, and add an "active" class to the button that opened the tab
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+        document.getElementById("defaultOpen").click();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed('.element', {
+            strings: ['Thu Hoai', 'Designer', 'Developer', 'Coder'],
+            smartBackspace: true,
+            loop: true,
+            loopCount: Infinity,
+            backSpeed: 100,
+            typeSpeed: 100,
+
+        });
+
+
+
+    </script>
+    <script src="java.js"></script>
+</body>
+
+</html>
